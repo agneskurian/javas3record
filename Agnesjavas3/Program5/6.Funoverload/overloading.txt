@@ -1,0 +1,7 @@
+Enter l,b,h
+12
+5
+2
+Area of triangle=60
+Area of rectangle=120
+

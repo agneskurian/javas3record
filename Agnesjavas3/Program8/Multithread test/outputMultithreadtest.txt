@@ -1,0 +1,13 @@
+From Thread B:j=0
+From Thread B:j=1
+From Thread B:j=2
+From Thread B:j=3
+From Thread B:j=4
+Exit from B
+From Thread A:i=0
+From Thread A:i=1
+From Thread A:i=2
+From Thread A:i=3
+From Thread A:i=4
+Exit from A
+

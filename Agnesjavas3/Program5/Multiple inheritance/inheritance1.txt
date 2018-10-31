@@ -1,0 +1,45 @@
+percentage of mark using multiple inheritance
+.................................................
+Enter the limit:
+2
+
+Enter the name:
+Barun
+Enter the roll number:
+1104
+Enter the total mark in subject1:
+100
+Enter the mark obtained in subject1:
+79
+Enter the total mark in subject2:
+100
+Enter the mark obtained in subject2:
+89
+STUDENT DETAILS
+---------------
+Name:Barun
+roll no:1104
+mark1:79
+mark2:89
+Percentage:84.0
+
+Enter the name:
+Sanaya
+Enter the roll number:
+1001
+Enter the total mark in subject1:
+100
+Enter the mark obtained in subject1:
+90
+Enter the total mark in subject2:
+100
+Enter the mark obtained in subject2:
+88
+STUDENT DETAILS
+---------------
+Name:Sanaya
+roll no:1001
+mark1:90
+mark2:88
+Percentage:89.0
+

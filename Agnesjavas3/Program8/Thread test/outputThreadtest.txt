@@ -1,0 +1,9 @@
+this is:Thread[main,5,main]
+Thread[First,5,main]
+0
+1
+2
+3
+4
+5
+

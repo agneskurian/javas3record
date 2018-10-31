@@ -1,0 +1,15 @@
+Raise Exception,If Given Number is Equal to 10
+ Number is 8
+Called check(8)
+Number 8 is less than  10
+[Agnes@DBCPC21 Desktop]$ java ExceptionMain 18
+Raise Exception,If Given Number is Equal to 10
+ Number is 18
+Called check(18)
+Number 18 is Greater than  10
+[Agnes@DBCPC21 Desktop]$ java ExceptionMain 10
+Raise Exception,If Given Number is Equal to 10
+ Number is 10
+Called check(10)
+Equal to 10 MyException[10]
+

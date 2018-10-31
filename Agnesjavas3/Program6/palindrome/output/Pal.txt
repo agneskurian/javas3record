@@ -1,0 +1,7 @@
+[Agnes@DBCPC21 Desktop]$ java PalTest hannah
+It is Palindrome
+[Agnes@DBCPC21 Desktop]$ java PalTest cris
+Not a Palindrome
+
+
+

@@ -1,0 +1,69 @@
+[root@DBCPC25 Desktop]# vi PostgreSQLTest1.java
+[root@DBCPC25 Desktop]# javac PostgreSQLTest1.java
+[root@DBCPC25 Desktop]# java -classpath .:postgresql-9.0-801.jdbc4.jar PostgreSQLTest1
+
+
+ Name    Place      Age
+------   -------    ------ 
+Aleesha	Vallithode	22	
+Subina	Vilamana	23	
+
+import java.sql.*;
+class PostgreSQLTest1
+{
+  public static void main (String[]args)
+  {
+    try
+    {
+      Class.forName ("org.postgresql.Driver");
+      String url = "testdb:postgresql:testdb";
+      Connection con = DriverManager.getConnection (url, "postgres", "");
+      Statement stm = con.createStatement ();
+      ResultSet rs = stm.executeQuery ("select name,place,age from RDetails");
+        System.out.println ("");
+        System.out.println ("");
+        System.out.println (" Name    Place      Age");
+        System.out.println ("------   -------    ------ ");
+      while (rs.next ())
+	{
+	  System.out.print (rs.getString ("name")+"\t");
+	  System.out.print ("" + rs.getString ("place")+"\t");
+	  System.out.println ("" + rs.getString ("age")+"\t");
+	}
+    }
+    catch (java.lang.ClassNotFoundException e)
+    {
+      System.err.print ("ClassNotFoundException: ");
+      System.err.println (e.getMessage ());
+    }
+    catch (SQLException e)
+    {
+      System.out.println ("Exception!");
+      System.out.println (e.toString ());
+    }
+  }
+}
+
+
+
+[root@DBCPC25 Desktop]# service postgresql start
+Starting postgresql service:                               [  OK  ]
+[root@DBCPC25 Desktop]# su - postgres
+-bash-4.1$ createdb testdb
+-bash-4.1$ psql testdb
+psql (8.4.13)
+Type "help" for help
+
+testdb=# create table RDetails(name varchar(20),place varchar(20),age int);CREATE TABLE
+testdb=# insert into RDetails values('Aleesha','Vallithode',22);
+INSERT 0 1
+testdb=# insert into RDetails values('Subina','Vilamana',23);
+INSERT 0 1
+testdb=# select * from RDetails;
+  name   |   place    | age 
+---------+------------+-----
+ Aleesha | Vallithode |  22
+ Subina  | Vilamana   |  23
+(2 rows)
+
+

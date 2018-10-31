@@ -1,0 +1,22 @@
+[agnes@DBCPC29 Desktop]$ vi Threadsync.java
+[smruthi@DBCPC29 Desktop]$ javac Threadsync.java
+[smruthi@DBCPC29 Desktop]$ java Threadsync
+0 
+1 
+2 
+3 
+4 
+5 
+0 
+1 
+2 
+3 
+4 
+5 
+0 
+1 
+2 
+3 
+4 
+5 
+

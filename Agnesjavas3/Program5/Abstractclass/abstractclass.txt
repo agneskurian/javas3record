@@ -1,0 +1,9 @@
+Area of rectangle using default constructor: 200.0
+Area of triangle using default constructor: 100.0
+Enter the length:
+12  
+Enter the breadth:
+20
+Area of rectangle: 240.0
+Area of Triangle: 120.0
+

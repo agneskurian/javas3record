@@ -1,0 +1,11 @@
+Enter two numbers:
+45
+60
+Sum of 45 and 60 is:105
+
+Enter two floating value is:
+22.56
+55.14
+
+Sum of two floating point value is:77.7
+

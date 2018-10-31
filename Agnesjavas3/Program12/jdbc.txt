@@ -1,0 +1,34 @@
+[root@DBCPC21 Desktop]# vi jdbc.java
+[root@DBCPC21 Desktop]# javac jdbc.java
+[root@DBCPC21 Desktop]# java -classpath .:postgresql-9.0-801.jdbc4.jar jdbc
+
+
+ Name   Place
+------- -------------
+Agnes	Karuvanchal
+
+[root@DBCPC21 Desktop]# service postgresql start
+Starting postgresql service:                               [  OK  ]
+[root@DBCPC21 Desktop]# su - postgres
+-bash-4.1$ createdb jdbc2
+-bash-4.1$ psql jdbc2
+psql (8.4.13)
+Type "help" for help.
+
+jdbc2=# create table RecordDetails(name varchar(20),place varchar(20));
+CREATE TABLE
+jdbc2=# insert into RecordDetails values('Agnes','Karuvanchal');
+INSERT 0 1
+jdbc2=# select * from RecordDetails;
+ name  |    place    
+-------+-------------
+ Agnes | Karuvanchal
+(1 row)
+[root@DBCPC21 Desktop]# vi jdbc.java
+[root@DBCPC21 Desktop]# javac jdbc.java
+[root@DBCPC21 Desktop]# java -classpath .:postgresql-9.0-801.jdbc4.jar jdbc
+
+
+ Name   Place
+------- -------------
+Agnes   Karuvanchal

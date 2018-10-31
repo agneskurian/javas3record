@@ -1,0 +1,4 @@
+Enter the 3 numbers:
+10 15 26
+large=26
+

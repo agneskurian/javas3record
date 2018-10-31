@@ -1,0 +1,24 @@
+Enter first string:
+Barun
+Enter second string:
+Sopthi
+STRING MANIPULATION OPERATIONS
+---------------------------
+First string is: Barun
+Second string is: Sopthi
+After converting first string to uppercase: BARUN
+After converting second string to lowercase: sopthi
+First string character at position is: B
+Barun Not Equals Sopthi-> false
+After concatenating s1 and s2: BarunSopthi
+After replacing character 'B' into 'S' in first string is: Sarun
+After Trim: Barun
+String Buffer
+----------------
+Buffer: Barun
+The character at position 1 is: a
+After appending: Barunbest!
+After inserting: Barunisbest!
+After reversing: !tsebsinuraB
+After Replacing: !tsebiiinuraB
+

@@ -1,0 +1,5 @@
+Enter 2 numbers
+10
+25
+Sum of two number is:35
+

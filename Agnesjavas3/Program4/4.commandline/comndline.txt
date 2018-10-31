@@ -1,0 +1,15 @@
+[Agnes@DBCPC21 Desktop]$ java comndline 5
+Enter all the elements
+34
+12
+11
+32
+10
+Assending order
+10
+11
+12
+32
+34
+Sum of array is=99
+
